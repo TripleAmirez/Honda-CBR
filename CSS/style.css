@@ -1,0 +1,30 @@
+header{
+    background-color: rgb(38,70,83);
+}
+
+.button{
+    background-color: tomato;
+    border-radius: 5px;
+    border:0;
+    text-decoration: none;
+}
+
+.text-tomato{
+    color: tomato;
+}
+
+.btn-outline-tomato{
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid tomato;
+}
+
+.hr-line{ 
+	border: 2px solid tomato;
+    width: 10%;
+} 
+
+.news-p-color{
+    color: dimgray;
+}
