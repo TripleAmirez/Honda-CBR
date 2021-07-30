@@ -1,4 +1,4 @@
-header{
+.header-bg{
     background-color: rgb(38,70,83);
 }
 
@@ -13,6 +13,34 @@ header{
     color: tomato;
 }
 
+.text-darkslategray{
+    color: darkslategray;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.text-peru{
+    color: rgb(231,124,64);
+}
+
+.text-gainsboro{
+    color: gainsboro;
+}
+
+.fs-60{
+    font-size: 60px;
+}
+
+.fs-100{
+    font-size: 100px;
+}
+
+.grayscale{
+    filter: grayscale(100%);
+}
+
 .btn-outline-tomato{
     background-color: white;
     border-radius: 5px;
@@ -20,11 +48,35 @@ header{
     border: 1px solid tomato;
 }
 
+.carousel-outline{
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid lightgray;
+}
+
 .hr-line{ 
 	border: 2px solid tomato;
     width: 10%;
 } 
 
-.news-p-color{
-    color: dimgray;
+.img-border{
+    border: 2px solid lightgray;
+}
+
+footer{
+    background-color: black;
+}
+
+.scale{
+    transform: scale(.5);
+}
+
+.hr2{ 
+	border: 2px solid tomato;
+    width: 5%;
+} 
+
+.hover img:hover{
+    transform: scale(1.2);
 }
