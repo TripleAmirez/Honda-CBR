@@ -7,8 +7,16 @@ body {
     scrollbar-width: none;  /* Firefox */
 }
 
-.header-bg,.follow{
+.header-bg,.follow,.bg-nav{
     background-color: rgb(38,70,83);
+}
+
+.bg-tomato{
+    background-color: tomato;
+}
+
+.bg-white{
+    background-color: tomato !important;
 }
 
 .button{
@@ -64,10 +72,25 @@ body {
     border: 2px solid lightgray;
 }
 
+@keyframes hr-animation{
+    100%{
+        transform: scaleX(0%);
+    }
+
+    50%{
+        transform: scaleX(100%);
+    }
+
+    0%{
+        transform: scaleX(0%);
+    }
+}
+
 .hr-line{ 
-	border: 2px solid tomato;
-    width: 10%;
-} 
+    height: 2px;
+    background-color: tomato;
+    animation: hr-animation 1s linear infinite;
+}
 
 .img-border{
     border: 2px solid lightgray;
@@ -88,4 +111,23 @@ footer{
 
 .hover img:hover{
     transform: scale(1.2);
+}
+
+.toggle a:hover{
+    background-color:rgb(38,70,83);
+    color: tomato !important;
+}
+
+.toggleNavbar{
+    visibility: none;
+}
+
+@media (max-width:770px) {
+    #fixdedNavbar{
+        display: none;
+    }
+
+    #toggleNavbar{
+        display: block;
+    }
 }
