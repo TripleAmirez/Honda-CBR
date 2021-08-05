@@ -1,3 +1,12 @@
+body::-webkit-scrollbar{
+    display:none;
+}
+
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 .header-bg,.social{
     background-color: rgb(38,70,83);
 }
